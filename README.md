@@ -1,25 +1,27 @@
-﻿UVa Online Judge试题
+Android 作业--反应测试
 =========
+
+本项目采用 GPL V2授权协议，欢迎大家在这个基础上进行改进，并与大家分享。
+
 ---
 介绍
 ---
--   UVa Online Judge试题答案，会逐步完善。
--   类名以OJ+试题编号组成。可以依照试题编号寻找题目及答案。
--   本项目使用Java语言编写。在练习系统上提交时请将主类改为Main，不要将package也提交，import是要提交的，建议将注释删除。
--   编写环境：Windows 7 64bit，JDK 1.7.0_45，Eclipse Kepler Service Release 1
+ - Android 课程的一个作业。
+ - 用于测试用户的反应时间的一个APP。
+ - 最低SDK版本Android 2.3.3(API 10)
+ - 目标SDK版本Android 4.3(API 18)
+ - 编写环境：Windows 7 64bit，JDK 1.7.0_45，Android Developer Tools Build: v22.3.0-887826
 
 版本
 --
 1.0
 
 
-申明
+功能
 ---
- - 题目来自UVa Online Judge（http://uva.onlinejudge.org/ ）。
- - 答案为本人依照题意和个人理解书写仅供参考，本人不对答案正确性做任何保证。
- - 本人水平有限，如有错误和需要改进的地方希望各位能指出，本人必虚心接受。同时如果侵犯了您的任何权益也请及时联系本人。
- - E-mail：chenkaiyaun1993@gmail.com
- - 请遵循GPLv2协议使用本项目
+ - 通过计算用户两次点击的时间差得出用户的反应时间。
+ - 界面之间跳转的时间间隔是随机的。
+ - 排行榜可记录最快的三位玩家
 
 协议
 --
